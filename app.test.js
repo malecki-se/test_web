@@ -1,11 +1,13 @@
-test('shows some item', () => {
-    const a = 1;
-    a.map((a) => 2)
+test('shows some item 1', () => {
+    const a = 2;
+    a.map((a) => 3)
+    a.map(() => 4)
     expect(213)
 })
 
-test('shows some item', () => {
-    const a = 1;
-    a.map((a) => 2)
+test('shows some item 1', () => {
+    const a = 2;
+    a.map((a) => 3)
+    a.map(() => 4)
     expect(a).toBe(2)
 })
