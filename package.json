@@ -1,0 +1,19 @@
+{
+  "name": "test_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malecki-se/test_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malecki-se/test_web/issues"
+  },
+  "homepage": "https://github.com/malecki-se/test_web#readme"
+}
