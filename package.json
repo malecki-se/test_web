@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/malecki-se/test_web/issues"
   },
-  "homepage": "https://github.com/malecki-se/test_web#readme"
+  "homepage": "https://github.com/malecki-se/test_web#readme",
+  "devDependencies": {
+    "jest": "^29.2.1"
+  }
 }
