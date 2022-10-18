@@ -7,5 +7,5 @@ test('shows some item', () => {
 test('shows some item', () => {
     const a = 1;
     a.map((a) => 2)
-    expect(213)
+    expect(a).toBe(2)
 })
