@@ -10,17 +10,11 @@ const b = {
 }
 
 function foo() {
-    const a = 0;
+    let a = 0;
     for (let i = 0; i++; i < 10) {
         a++
     }
     return a;
 }
 
-function bar() {
-    const a = 0;
-    for (let i = 0; i++; i < 10) {
-        a++
-    }
-    return a;
-}
+export default foo;
