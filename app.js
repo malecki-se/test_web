@@ -8,3 +8,6 @@ const b = {
     b: 2,
     c: 3
 }
+
+exports.a = a;
+exports.b = b;
