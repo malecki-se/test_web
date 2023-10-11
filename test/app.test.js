@@ -9,3 +9,13 @@ test('some test test case 2', () => {
 test('some test test case 3', () => {
   expect(3).toBe(3)
 })
+
+test('some test test case 3', () => {
+  expect(3).toBe(3)
+})
+test('some test test case 3', () => {
+  expect(3).toBe(3)
+})
+test('some test test case 3', () => {
+  expect(3).toBe(3)
+})
