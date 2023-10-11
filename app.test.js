@@ -1,9 +1,19 @@
-const {a, b} = require('./app');
+import foo from './app';
 
-it('should get a json objects', () => {
-    expect(a).toEqual({a: 1, b: 2})
+test('shows some item 1', () => {
+    const a = 2;
+    a.map((a) => 3)
+    a.map(() => 4)
+    expect(213)
 })
 
-it('should get b json objects', () => {
-    expect(b).toEqual({a: 1, b: 2, c: 3})
+test('shows some item 1', () => {
+    const a = 2;
+    a.map((a) => 3)
+    a.map(() => 4)
+    expect(a).toBe(2)
+})
+
+test('testFunction', () => {
+    expect(foo()).toBe(9)
 })
